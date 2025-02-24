@@ -1,5 +1,4 @@
 import './App.css';
-import DeletarCategorias from './components/categorias/deletarcategorias/DeletarCategorias';
 import FormCategorias from './components/categorias/formcategorias/FormCategorias';
 import ListaCategorias from './components/categorias/listacategorias/ListaCategorias';
 import Footer from './components/footer/Footer';
@@ -17,9 +16,8 @@ function App() {
           <Route path='/' element={<Home />} />
           <Route path='/home' element={<Home />} />
           <Route path="/categorias" element={<ListaCategorias />} />
-          <Route path="/cadastrarcategoria" element={<FormCategorias />} />
-          <Route path="/editarcategoria/:id" element={<FormCategorias />} />
-          <Route path="/deletarcategoria/:id" element={<DeletarCategorias />} />
+          <Route path="/cadastrarCategoria" element={<FormCategorias />} />
+          <Route path="/editartema/:id" element={<FormCategorias />} />
         </Routes>
       </div>
       <Footer />

@@ -12,7 +12,7 @@ function Home() {
             <p className="text-lg text-gray-700 mb-8">
               Encontre tudo o que você precisa em nossa farmácia online, com entrega rápida e segura.
             </p>
-            <Link to={"/categorias"} className="block"> 
+            <Link to={"/listarcategorias"} className="block"> 
               <button className="px-6 py-3 bg-green-500 text-white font-semibold rounded-lg shadow-lg hover:bg-green-600 focus:outline-none transition duration-300 w-full"> {/* Adicionado w-full */}
                 Ver Categorias
               </button>

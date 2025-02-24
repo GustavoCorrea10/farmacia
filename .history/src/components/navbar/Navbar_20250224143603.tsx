@@ -9,7 +9,7 @@ function Navbar() {
         </Link>
 
         <div className="flex gap-4">
-          <Link to='/cadastrarcategoria'>Cadastrar Categoria</Link> 
+          <Link to=''>Cadastrar Categoria</Link> 
         </div>
       </div>
     </div>
